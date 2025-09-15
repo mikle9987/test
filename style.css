@@ -1,0 +1,33 @@
+.card-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px; 
+}
+
+.card {
+    border: 1px solid #ccc;
+    padding: 10px;
+    width: 250px; 
+    text-align: center;
+    background-color: aqua;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1); 
+    border-radius: 30px;
+}
+
+.card-image {
+    width: 250px;
+    height: 250px;
+    background-color: black;
+    margin-bottom: 10px;
+}
+
+.card-title {
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.logo {
+    width: 50px;
+    height: 50px;
+}
